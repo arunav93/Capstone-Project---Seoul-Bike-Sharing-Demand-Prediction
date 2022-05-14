@@ -32,13 +32,14 @@ We have the following variables in the dataset:
 * Installing libraies and getting the dataset.
 * Pre-processing the dataset - Checking for Missing values, Duplicate values
 * Conduct Exploratory Data Analysis - Analysing the dependent variable, categorical and numerical variables individually.
-* Feature Engineering and Feature Selection: - Creation of new features according to our need, dropping of unnecessary features by checking correlation and VIF ,         handling of outliers, Standardization and normalization of features.
+* Feature Engineering and Feature Selection: - Creation of new features according to our need, handling of outliers, Standardization and normalization of features,       dropping of unnecessary features by checking correlation, VIF and OLS method, 
 * Training different models  - Linear regression, Decision Tress, Random Forest, Gradient Boosting
 * Evaluating metrics of all the models - Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R2 and Adjusted R2.
+* Hypertuning and Explaining the best model with SHAP.
 
 # **Conclussion**
 ------
-We used R2-score to understand which model fit our data better, and the scores are as follows:
+We checked R2 and adjusted R2 score to understand which model fit our data better, and the scores are as follows:
 
 * Linear Regression - 0.515109
 * Decision Tree Regressor - 0.795209
