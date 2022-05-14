@@ -11,8 +11,7 @@ We are tasked with predicting the number of bikes rented each hour so as to make
 
 # **Overview of the data**
 ----------
-We are given the following columns in our data:
-
+We have the following variables in the dataset:
 * Date : year-month-day
 * Rented Bike count - Count of bikes rented at each hour
 * Hour - Hour of the day
@@ -27,19 +26,16 @@ We are given the following columns in our data:
 * Seasons - Winter, Spring, Summer, Autumn
 * Holiday - Holiday/No holiday
 * Functional Day - No(Non Functional Hours), Yes(Functional hours)
+
 # **Steps involved**
 --------
 * Installing libraies and getting the dataset.
-* Performing EDA (exploratory data analysis).
-* Drawing conclusions from the data.
-* Preprocessing the data.
-* Training different models.
-* Evaluating metrics of all the models.
-* Algorithms used
-* Linear Regression
-* Decision Tree Regressor
-* Random Forest Regressor
-* Extra Trees Regressor
+* Pre-processing the dataset - Checking for Missing values, Duplicate values
+* Conduct Exploratory Data Analysis - Analysing the dependent variable, categorical and numerical variables individually.
+* Feature Engineering and Feature Selection: - Creation of new features according to our need, dropping of unnecessary features by checking correlation and VIF ,         handling of outliers, Standardization and normalization of features.
+* Training different models with 4 machine learning algorithms - Linear regression, Decision Tress, Random Forest, Gradient Boosting
+* Evaluating metrics of all the models - Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R2 and Adjusted R2.
+
 # **Conclussion**
 ------
 We used R2-score to understand which model fit our data better, and the scores are as follows:
