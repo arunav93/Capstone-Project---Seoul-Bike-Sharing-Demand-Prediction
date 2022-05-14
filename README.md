@@ -33,7 +33,7 @@ We have the following variables in the dataset:
 * Pre-processing the dataset - Checking for Missing values, Duplicate values
 * Conduct Exploratory Data Analysis - Analysing the dependent variable, categorical and numerical variables individually.
 * Feature Engineering and Feature Selection: - Creation of new features according to our need, dropping of unnecessary features by checking correlation and VIF ,         handling of outliers, Standardization and normalization of features.
-* Training different models with 4 machine learning algorithms - Linear regression, Decision Tress, Random Forest, Gradient Boosting
+* Training different models  - Linear regression, Decision Tress, Random Forest, Gradient Boosting
 * Evaluating metrics of all the models - Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R2 and Adjusted R2.
 
 # **Conclussion**
