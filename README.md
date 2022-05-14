@@ -37,9 +37,11 @@ We have the following variables in the dataset:
 * Evaluating metrics of all the models - Mean Squared Error, Root Mean Squared Error, Mean Absolute Error, R2 and Adjusted R2.
 * Hypertuning and Explaining the best model with SHAP.
 
-# **Conclussion**
+# **Conclusion**
 ------
-We checked R2 and adjusted R2 score to understand which model fit our data better, and the scores are as follows:
+We checked R2 score to understand which model fit our data better, and we found that that Random Forest gave the highest train R2 score of 99.06 % and test R2 score of 91.58 %. So we took Random forest for hyperparameter tuning.
+For hyperparameter tuning, we first used RandomizedSearchCV on Random Forest model to find random set of best parameters and then we applied GridSearch CV method to narrow down the range to find the perfect hyperparameters after which we found the evaluation scores for Random Forest model by applying the best hyperparameters.
+
 
 * Linear Regression - 0.515109
 * Decision Tree Regressor - 0.795209
